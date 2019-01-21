@@ -247,3 +247,12 @@ git submodule update
 // 或
 git submodule update --init --recursive
 ```
+
+## 提取/合并某分支的部分文件
+```
+# 进入操作分支
+git checkout dev
+# 合并 feature 分支下的文件
+git checkout feature file-01
+git checkout feature file-x
+```
